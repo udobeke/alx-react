@@ -53,7 +53,14 @@ module.exports = {
 				test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
 				use: [
 					{
-						loader: ['file-loader', 'image-webpack-loader'],
+						loader: 'file-loader',
+						options: {
+							name: '[name].[ext]',
+							outputPath: 'images',
+						},
+					},
+					{
+						loader: 'image-webpack-loader',
 						options: {
 							bypassOnDebug: true,
 							disable: true,
