@@ -3,10 +3,10 @@ const path = require("path");
 module.exports = {
   mode: "production",
   entry: {
-    main: path.resolve(__dirname, "./js/dashboard_main.js"),
+    main: path.resolve(__dirname, "./task_2/js/dashboard_main.js"),
   },
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "task_2/public"),
     filename: "bundle.js",
   },
   performance: {
