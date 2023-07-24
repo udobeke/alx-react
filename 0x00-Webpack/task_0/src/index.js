@@ -11,4 +11,3 @@ $(document).ready(function() {
     $('body').append(`<p>${paragraph}</p>`);
   });
 });
-
