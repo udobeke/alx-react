@@ -1,0 +1,13 @@
+.Notifications{
+  border: 2px solid #E0354B;
+  padding: 15px;
+  font-family: sans-serif;
+}
+
+li[data="default"] {
+  color: blue;
+}
+
+li[data="urgent"] {
+  color: red;
+}
