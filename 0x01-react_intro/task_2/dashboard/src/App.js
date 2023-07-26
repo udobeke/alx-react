@@ -18,6 +18,7 @@ function App() {
          <input name="password" type="password" id="password"></input>
          <button>OK</button>
       </div>
+      
      <footer className="App-footer">
         <p>{`Copyright ${getFullYear()} - ${getFooterCopy(true)}`}</p>
       </footer>
